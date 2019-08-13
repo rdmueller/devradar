@@ -2,13 +2,18 @@
 title = "Ralf's skillradar"
 categories = [ "Tools", "Techniques", "Platforms & Languages", "Frameworks" ]
 levels = [ "Novice", "Intermediate", "Advanced", "Veteran" ]
-
+  
 [[blips]]
 category = 3
 title = "Spock"
+link = "http://spockframework.org/"
+description= ""
+level = 3
 
-  [[blips.changes]]
+[[blips.changes]]
   date = "2019-06"
+  newLevel = 3
+  text = "initial setup"
 
 [[blips]]
 category = 2
@@ -17,6 +22,8 @@ level = 0
 
   [[blips.changes]]
   date = "2019-06"
+  newLevel = 0
+  text = "initial setup"
 
 [[blips]]
 category = 1
