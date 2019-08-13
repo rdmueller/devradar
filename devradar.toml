@@ -29,35 +29,47 @@ level = 0
 category = 1
 description = "Da Wasserfall eigentlich noch nie geklappt hat, haben wir in der Entwicklung eigentlich schon immer agil gearbeitet. Mit der zeit hat das dann Namen bekommen, wie eXtreme Programming und jetzt Scrum. Allerdings mache ich nicht Scrum by the Book, sondern nutze die Ansätze, so wie sie in das Projekt passen."
 title = "Scrum"
+level = 3
 
   [[blips.changes]]
   date = "2019-06"
-
+  newLevel = 3
+  reason = "initial setup"
+  
 [[blips]]
 category = 1
-description = "Gerne, soweit es machbar und effizient ist"
 title = "Everything as Code"
+description = "Gerne, soweit es machbar und effizient ist"
+level = 2
 
   [[blips.changes]]
   date = "2019-06"
-
+  newLevel = 2
+  reason = "initial setup"
+  
 [[blips]]
 category = 1
 link = "https://docs-as-co.de"
-description = "I not only use this approach, I also try to evolve and define it."
 title = "Docs-as-Code"
+description = "I not only use this approach, I also try to evolve and define it."
+level = 3
 
   [[blips.changes]]
   date = "2019-06"
+  newLevel = 3
+  reason = "initial setup"
 
 [[blips]]
 category = 1
-description = 'Sometimes in Chapter 9 of arc42 (Design Decisions), sometimes inline as comments (see also the book "Java by Comaprison") sometimes jsut as .adoc file.'
 title = "Architecture Decision Records (ADRs)"
+description = 'Sometimes in Chapter 9 of arc42 (Design Decisions), sometimes inline as comments (see also the book "Java by Comaprison") sometimes jsut as .adoc file.'
+level = 2
 
   [[blips.changes]]
   date = "2019-06"
-
+  newLevel = 2
+  reason = "initial setup"
+  
 [[blips]]
 category = 1
 link = "https://arc42.org"
