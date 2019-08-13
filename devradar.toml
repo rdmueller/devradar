@@ -2,24 +2,24 @@
 title = "Ralf's skillradar"
 categories = [ "Tools", "Techniques", "Platforms & Languages", "Frameworks" ]
 levels = [ "Novice", "Intermediate", "Advanced", "Veteran" ]
-states = [ "Novice", "Intermediate", "Advanced", "Veteran" ]
 
 [[blips]]
-category = "Frameworks"
+category = 3
 title = "Spock"
 
   [[blips.changes]]
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 title = "OpenShift"
+level = 0
 
   [[blips.changes]]
   date = "2019-06"
 
 [[blips]]
-category = "Techniques"
+category = 1
 description = "Da Wasserfall eigentlich noch nie geklappt hat, haben wir in der Entwicklung eigentlich schon immer agil gearbeitet. Mit der zeit hat das dann Namen bekommen, wie eXtreme Programming und jetzt Scrum. Allerdings mache ich nicht Scrum by the Book, sondern nutze die Ansätze, so wie sie in das Projekt passen."
 title = "Scrum"
 
@@ -27,7 +27,7 @@ title = "Scrum"
   date = "2019-06"
 
 [[blips]]
-category = "Techniques"
+category = 1
 description = "Gerne, soweit es machbar und effizient ist"
 title = "Everything as Code"
 
@@ -35,7 +35,7 @@ title = "Everything as Code"
   date = "2019-06"
 
 [[blips]]
-category = "Techniques"
+category = 1
 link = "https://docs-as-co.de"
 description = "I not only use this approach, I also try to evolve and define it."
 title = "Docs-as-Code"
@@ -44,7 +44,7 @@ title = "Docs-as-Code"
   date = "2019-06"
 
 [[blips]]
-category = "Techniques"
+category = 1
 description = 'Sometimes in Chapter 9 of arc42 (Design Decisions), sometimes inline as comments (see also the book "Java by Comaprison") sometimes jsut as .adoc file.'
 title = "Architecture Decision Records (ADRs)"
 
@@ -52,7 +52,7 @@ title = "Architecture Decision Records (ADRs)"
   date = "2019-06"
 
 [[blips]]
-category = "Techniques"
+category = 1
 link = "https://arc42.org"
 description = """
 arc42 is the standard for software system architecture documentation. I not only use it, I also defined the converters behind the template mechanism.
@@ -64,7 +64,7 @@ title = "arc42"
   date = "2019-06"
 
 [[blips]]
-category = "Frameworks"
+category = 3
 link = "https://gebish.org/"
 description = "Geb is a really useful abstractionlayer on top of the selenium webdriver. It is ewasy to use and produces readable test code."
 title = "Geb"
@@ -73,7 +73,7 @@ title = "Geb"
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 description = "The JVM is is my preferred platform for enterprise development."
 title = "JVM"
 
@@ -81,7 +81,7 @@ title = "JVM"
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 description = """
 Java ist the base languages on the JVM. I am a SCP for Java 5 :-) and started out with Java 1.something. 
 Together with others, I organized decades ago the Java User Group Frankfurt.
@@ -92,7 +92,7 @@ title = "Java"
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 description = "Whenever I code on the Raspberry Pi, I use Python for its performance and resource management."
 title = "Python"
 
@@ -100,7 +100,7 @@ title = "Python"
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 description = "Groovy is my preferred language because it is very flexible and it gives me the productivity I need."
 title = "Groovy"
 
@@ -108,7 +108,7 @@ title = "Groovy"
   date = "2019-06"
 
 [[blips]]
-category = "Tools"
+category = 0
 description = """
 Don't ask me for shortcuts. It just works and I live it.
 Ultimate edition everywhere."""
@@ -118,7 +118,7 @@ title = "IntelliJ"
   date = "2019-06"
 
 [[blips]]
-category = "Tools"
+category = 0
 description = "The preferred tool to write documentation."
 title = "Asciidoctor"
 
@@ -126,7 +126,7 @@ title = "Asciidoctor"
   date = "2019-06"
 
 [[blips]]
-category = "Tools"
+category = 0
 description = """
 Use it mostly for complex architecture diagrams.
 Export autoamted for documentation."""
@@ -136,7 +136,7 @@ title = "Sparx Enterprise Architect"
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 description = """
 JQuery for the win :-)
 I know how to use it to achive things."""
@@ -146,7 +146,7 @@ title = "JavaScript"
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 description = "For both, I had a full day workshop. That's it."
 title = "Angular & React"
 
@@ -154,7 +154,7 @@ title = "Angular & React"
   date = "2019-06"
 
 [[blips]]
-category = "Frameworks"
+category = 1
 description = """
 I can write Microservices and Apps in Spring Boot, but never used it for production code.
 I consider it as a too complex framework and prefere to use Grails"""
@@ -164,7 +164,7 @@ title = "Spring Boot"
   date = "2019-06"
 
 [[blips]]
-category = "Frameworks"
+category = 1
 link = "https://docToolchain.github.io/docToolchain/"
 description = "Mainter von docToolchain"
 title = "docToolchain"
@@ -173,7 +173,7 @@ title = "docToolchain"
   date = "2019-06"
 
 [[blips]]
-category = "Frameworks"
+category = 1
 description = "I use Spring Security for oAuth2 / OIDC login and manage to configure it without code."
 title = "Spring Security"
 
@@ -181,7 +181,7 @@ title = "Spring Security"
   date = "2019-06"
 
 [[blips]]
-category = "Frameworks"
+category = 1
 link = "https://grails.org"
 description = "I used Grails 2.x for over 10 years for several applications in production."
 title = "Grails"
@@ -190,7 +190,7 @@ title = "Grails"
   date = "2019-06"
 
 [[blips]]
-category = "Tools"
+category = 0
 description = """
 Configured and used it for oAuth2 / OIDC 
 and for automated testing"""
@@ -200,7 +200,7 @@ title = "Keycloak"
   date = "2019-06"
 
 [[blips]]
-category = "Tools"
+category = 0
 description = "Use it for docToolchain"
 title = "Gradle"
 
@@ -208,7 +208,7 @@ title = "Gradle"
   date = "2019-06"
 
 [[blips]]
-category = "Platforms & Languages"
+category = 2
 link = "https://golang.org"
 description = "sldjkfsdlfk"
 title = "Go"
